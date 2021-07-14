@@ -230,7 +230,7 @@ footer p{
 
 
 @media only screen and (max-width:688px) {
-   
+    
     .menu{
         display: none;
     }
@@ -239,6 +239,7 @@ footer p{
         justify-content: flex-end;
         width: 95%;
         padding-top: 10px;
+        margin: 0;
     }
     .menu-button{
         position: relative;
@@ -298,7 +299,8 @@ footer p{
 
     .summurys{
         width: 87%;
-        padding: 15px;
+        padding-left: 15px;
+        
     }
     .column h3{
         font-size: 18px;
