@@ -221,6 +221,20 @@ footer p{
 
 @media only screen and (max-width:688px) {
    
+    .menu{
+        display: none;
+    }
+    .nav-bar{
+        display: flex;
+        justify-content: flex-end;
+        width: 95%;
+        padding-top: 10px;
+    }
+    .menu-button{
+        position: relative;
+        top: -5px;
+        right: 10px;
+    }
     .top-banner{
         display: flex;
         flex-direction: column;
@@ -233,7 +247,7 @@ footer p{
         
     }
     .top-banner-title h1{
-        
+
     }
     .top-banner-img{
         width: 90%;
@@ -250,10 +264,9 @@ footer p{
         grid-template-columns: repeat(1, 1fr);
     }
     .player{
-        margin-left: 35px;
+        margin-left: 1%;
     }
     .all-news{
-        width: 100%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         
@@ -264,17 +277,18 @@ footer p{
         grid-row-gap: 30px;
     }
     .top-news .news{
-        width: 370px;
+        width: 84%;
         margin-left: 15px;
     }
     .top-news .news .news-thumbnail img{
-        width: 340px;
+        width: 100%;
         border-radius: 10px;
 
     }
 
     .summurys{
-        width: 100%;
+        width: 87%;
+        padding: 15px;
     }
     .column h3{
         font-size: 18px;
@@ -284,20 +298,19 @@ footer p{
     }
     .big-logo img{
         width: 60%;
+        height: 20%;
         margin-left: 15%;
     }
     .social-icon i{
-        font-size: 20px;
-        padding: 10px;
-        margin: 10px;
+        font-size: 18px;
+        padding: 8px;
+        margin: 7px;
     }
     footer p{
-        font-size: 20px;
+        font-size: 10px;
     }
 
-    header{
-        display: none;
-    }
+    
 }
 
 /* Responsive page  
