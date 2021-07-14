@@ -321,9 +321,6 @@ footer p{
     .nav-bar{
         padding-top: 20px;
     }
-    .menu{
-    
-    }
     .menu li{
         font-size: 15px;
     }
@@ -356,8 +353,4 @@ footer p{
         font-size: 25px;
     }
 
-    
-    /* header{
-        display: none;
-    } */
 }
