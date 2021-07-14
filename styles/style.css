@@ -39,7 +39,12 @@ body{
     color: white;
     background-color: #E02C6D;
     padding: 10px 20px;
-    
+}
+.menu-button a:hover{
+    border-radius: 20px;
+    padding: 7px 12px;
+    transition: border-radius .5s;
+    transition: padding .5s;
 }
 .menu-button{
     list-style: none;
