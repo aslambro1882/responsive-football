@@ -105,6 +105,7 @@ body{
 }
 .players{
     margin-top: 70px;
+    margin-bottom: 70px;
     width: 1050px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -133,6 +134,10 @@ body{
     margin: 0;
 }
 
+hr{
+    border: 2px solid rgba(0, 0, 0, 0.068);
+    width: 60%;
+}
 /* Player News Section (EXTRA PART) Styles  */
 .all-news{
     display: flex;
